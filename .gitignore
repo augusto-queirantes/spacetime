@@ -1,0 +1,29 @@
+# dependencies
+mobile/node_modules
+server/node_modules
+web/node_modules
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# Logs
+logs
+*.log
+
+# dotenv environment variable files
+.env
+
+# Next.js build output
+.next
+out
+
+# vuepress v2.x temp and cache directory
+.temp
