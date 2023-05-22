@@ -12,9 +12,11 @@ const app = fastify()
 app.register(cors, {
   origin: true
 })
+
 app.register(jwt, {
   secret: 'spacetime'
 })
+
 app.register(memoriesRoutes)
 app.register(authRoutes)
 
